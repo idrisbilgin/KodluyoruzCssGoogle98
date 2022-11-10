@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section article:nth-child(1) {
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 2px;
+}
+
+section article:nth-child(1) input {
+    padding: 1px 2px;
+    width:317px;
+}
+
+section article:nth-child(2) {
+    width: 100%;
+}
+
+section article:nth-child(2) div {
+    float: left;
+}
+
+section article:nth-child(2) .box-1 {
+    background-color: rgb(126, 229, 218);
+    padding: 8px 0;
+    height: 60px;
+    width: 37%;
+    margin-right: 2px;
+}
+
+section article:nth-child(2) .box-2 {
+    background-color: rgb(112, 204, 194);
+    font-size: small;
+    padding: 8px 0;
+    height: 60px;
+    width: 23%;
+    margin-right: 2px;
+}
+
+section article:nth-last-child(1) .box-3 {
+    background-color: rgb(98, 179, 170);
+    width: calc(40% - 4px);
+    font-size: 13px;
+    height: 76px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    clear: left;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
